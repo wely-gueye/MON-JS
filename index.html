@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contenu.css">
+</head>
+<body>
+  <section class="perso">
+    <h3>BIEVENUE SUR TO-DO-LIST <br>
+      <br> WELY GUEYE <br>
+       <br>CLASSE BIG2 A 221426 <br>
+      </h3>
+    </section>
+    <div class="logo" >
+        <img src="téléchargement.jpeg" alt="" width="250px">
+    </div>
+    
+    <div class="contenu" >
+
+
+  <div class="todo-container">
+    <h1 class="todo-title">GESTION DES TACHE</h1>
+    <div class="todo-input-container">
+      <input type="text" id="taskInput" placeholder="Ajouter une nouvelle tâche..." />
+      <button id="addTaskButton">AJOUTER</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="todo-footer">
+      <p>TOTAL : <span id="totalTasks">0</span></p>
+      <p>TERMINEES : <span id="completedTasks">0</span></p>
+      <button id="clearAllButton" class="btn-clear">TOUT SUPPRIMER</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
